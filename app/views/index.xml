@@ -1,0 +1,11 @@
+<Alloy>
+	<!-- This creates a global instance of a collection based on the cars model 
+	     We can now access this instance using the following code:
+	     Allow.Collection.cars -->
+	<Collection src="cars"/>
+	<Window id="mainWindow">
+		<TableView dataCollection="cars" dataTransform="transform" dataFilter="filter">
+			<TableViewRow title="{title}" modelId="{id}" />
+		</TableView>
+	</Window>
+</Alloy>
