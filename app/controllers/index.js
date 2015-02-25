@@ -21,7 +21,7 @@ function filter(collection)
 }
 
 //this is an event listener to ensure that the TalbleView bindings are cleaned up
-//correctly and no memory leaks are left
+//correctly and no memory leaks are left 
 
 //Free the model-view data binding resources when the view-controller closes
 $.mainWindow.addEventListener("close", function()
